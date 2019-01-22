@@ -23,7 +23,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                     {!! Form::open(['route' => ['users.store'] ]) !!}
-                    @include('user._form')
+                    @include('User._form')
                     <!-- Submit Form Button -->
                         {!! Form::submit('Creer', ['class' => 'btn btn-primary']) !!}
                         {!! Form::close() !!}
